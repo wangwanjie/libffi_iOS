@@ -1,6 +1,6 @@
 {
   "name": "libffi_iOS",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Compiled libffi for iOS. ",
   "description": "Compiled libffi for iOS. ",
   "homepage": "https://github.com/wangwanjie/libffi_iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangwanjie/libffi_iOS.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "6.0"

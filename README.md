@@ -1,10 +1,10 @@
-## libffi-iOS
+## libffi_iOS
 Compiled libffi for iOS.
 
-[![CI Status](https://img.shields.io/travis/wangwanjie/libffi-iOS.svg?style=flat)](https://travis-ci.org/wangwanjie/libffi-iOS)
-[![Version](https://img.shields.io/cocoapods/v/libffi-iOS.svg?style=flat)](https://cocoapods.org/pods/libffi-iOS)
-[![License](https://img.shields.io/cocoapods/l/libffi-iOS.svg?style=flat)](https://cocoapods.org/pods/libffi-iOS)
-[![Platform](https://img.shields.io/cocoapods/p/libffi-iOS.svg?style=flat)](https://cocoapods.org/pods/libffi-iOS)
+[![CI Status](https://img.shields.io/travis/wangwanjie/libffi_iOS.svg?style=flat)](https://travis-ci.org/wangwanjie/libffi_iOS)
+[![Version](https://img.shields.io/cocoapods/v/libffi_iOS.svg?style=flat)](https://cocoapods.org/pods/libffi_iOS)
+[![License](https://img.shields.io/cocoapods/l/libffi_iOS.svg?style=flat)](https://cocoapods.org/pods/libffi_iOS)
+[![Platform](https://img.shields.io/cocoapods/p/libffi_iOS.svg?style=flat)](https://cocoapods.org/pods/libffi_iOS)
 
 ## Based On
 
@@ -21,7 +21,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-libffi-iOS is available through [CocoaPods](https://cocoapods.org). To install
+libffi_iOS is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -42,4 +42,4 @@ VanJay, vanjay.dev@gmail.com
 
 ## License
 
-libffi-iOS is available under the MIT license. See the LICENSE file for more info.
+libffi_iOS is available under the MIT license. See the LICENSE file for more info.

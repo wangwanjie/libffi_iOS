@@ -1,5 +1,5 @@
 PODS:
-  - libffi_iOS (0.1.0)
+  - libffi_iOS (0.2.0)
 
 DEPENDENCIES:
   - libffi_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  libffi_iOS: 52e30ac1b8213e3dad3919a45cb93c45eb4eb2df
+  libffi_iOS: aad9761ff9024f60647b19a360d35adcf86fe1d4
 
 PODFILE CHECKSUM: 14e5aee0f158e2a5305b709c2f527012b73289ae
 
