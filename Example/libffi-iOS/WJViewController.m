@@ -21,7 +21,7 @@
     [self libffiTest];
 }
 
-int func1(int a, int b) {
+int funcName(int a, int b) {
     return a + b;
 }
 
@@ -43,7 +43,7 @@ int func1(int a, int b) {
     args[1] = &y;
     int ret;
     // 5
-    ffi_call(&cif, (void (*)(void))func1, &ret, args);
+    ffi_call(&cif, (void (*)(void))funcName, &ret, args);
 
     NSLog(@"libffi return value: %d", ret);
 }

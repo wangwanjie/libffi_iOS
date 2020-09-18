@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## libffi-iOS
+## libffi_iOS
 
 MIT License
 
