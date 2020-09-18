@@ -1,1 +1,1 @@
-../../../../../libffi-iOS/fficonfig_arm64.h
+../../../../../libffi_iOS/fficonfig_arm64.h

@@ -1,6 +1,6 @@
 //
-//  libffi-iOSTests.m
-//  libffi-iOSTests
+//  libffi_iOSTests.m
+//  libffi_iOSTests
 //
 //  Created by wangwanjie on 09/18/2020.
 //  Copyright (c) 2020 wangwanjie. All rights reserved.

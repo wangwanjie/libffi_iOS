@@ -2,12 +2,12 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'libffi-iOS_Example' do
+target 'libffi_iOS_Example' do
   pod 'libffi_iOS', :path => '../'
 
-  target 'libffi-iOS_Tests' do
+  target 'libffi_iOS_Tests' do
     inherit! :search_paths
 
-
+    
   end
 end

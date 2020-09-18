@@ -38,7 +38,7 @@ pod 'libffi_iOS'
 
 ## Author
 
-wangwanjie, wangwanjie1993@gmail.com
+VanJay, vanjay.dev@gmail.com
 
 ## License
 

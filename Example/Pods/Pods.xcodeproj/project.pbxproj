@@ -19,23 +19,23 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		066F61392D5FCE329B811380FA992980 /* Pods-libffi-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B94D7A763F14EC305B86C070903CCA15 /* Pods-libffi-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7B07DA5AF05606B89A21BF35861285 /* Pods-libffi-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AE61199E2CC3C910C779AAE3BB0FD6 /* Pods-libffi-iOS_Example-dummy.m */; };
-		99473EBAFDFD67B075984483353646BF /* Pods-libffi-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D802A1392C6F89534D55425AA72FAB97 /* Pods-libffi-iOS_Tests-dummy.m */; };
-		C05214A50D29DA35556D90B6FDC56926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CBA76E13E2ED533D296EE27D77CEFEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DD85C949E9210D014AB9E63A720DA0A8 /* Pods-libffi-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4A8C4DA2A87BC7D45AD12C830263C1 /* Pods-libffi-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12EAF09F09DA74F5CE0868C513056F0E /* Pods-libffi_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BFF88143AA4E868D51548272FD75EE /* Pods-libffi_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705E682E886879B15DFF454E886D135F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B02BF1F69373938F11827A18B8E962E5 /* Pods-libffi_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0475FDA168B8BAB9DA95EF9F5A3174B4 /* Pods-libffi_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D236D146D45A0617CDAE5EBCAC3B9870 /* Pods-libffi_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92836013D644CF3EFFD28F2BA4C82FAB /* Pods-libffi_iOS_Tests-dummy.m */; };
+		DC43FFE0F0B0C4AC3B6B3983A4A3EF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EA131916AEBE3DF5BD9758DF3D3B8385 /* Pods-libffi_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 438CCC7E52793FBC7DC0E1DBB6F43B89 /* Pods-libffi_iOS_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55CBB9E5DEAF074AB9CC807A06218BEF /* PBXContainerItemProxy */ = {
+		87149EA05CE82EF7DE15941129E892D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 855EAD3178C75846E075FE349F91B2AA;
-			remoteInfo = "Pods-libffi-iOS_Example";
+			remoteGlobalIDString = 653CAB0081218F288116714FB4A99114;
+			remoteInfo = "Pods-libffi_iOS_Example";
 		};
-		8F3F7BA98896BFE0BA5B1D8098AA5435 /* PBXContainerItemProxy */ = {
+		E7DBB14594F7FC58A8C6E53E6183B414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,121 +45,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014D085052DCEEDA89CA4204DEBBAD4A /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = "libffi-iOS/ffitarget_arm64.h"; sourceTree = "<group>"; };
-		0B5829F055EE2C3A21904B97BB53878B /* libffi_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libffi_iOS.debug.xcconfig; sourceTree = "<group>"; };
-		12687DA72E15BA598EC69E814B3BB8B4 /* Pods_libffi_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libffi_iOS_Example.framework; path = "Pods-libffi-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16FB968F8437BB1069CF8BEBBE40CE43 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = "libffi-iOS/ffitarget_x86_64.h"; sourceTree = "<group>"; };
-		1C1988B44797AD546DCD2C5987D5956F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1C202359916771BD3011B389AB9E1AE3 /* Pods_libffi_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libffi_iOS_Tests.framework; path = "Pods-libffi-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B1AF4496A73FF781E2296608B4F60A /* Pods-libffi-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libffi-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		22E23A63614EAAF509DE452FF619F5E0 /* fficonfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig.h; path = "libffi-iOS/fficonfig.h"; sourceTree = "<group>"; };
-		2D60A87618100DC73F70B3CDC2F5070F /* Pods-libffi-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DEDB1265D04A879AE7718AF28575519 /* Pods-libffi-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libffi-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		0475FDA168B8BAB9DA95EF9F5A3174B4 /* Pods-libffi_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libffi_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		05A364F8655F290DFB3AAAE9B3808F41 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = libffi_iOS/ffi_arm64.h; sourceTree = "<group>"; };
+		05B4D38242895AD4792325ACBB174A18 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = libffi_iOS/ffitarget_x86_64.h; sourceTree = "<group>"; };
+		10A34615115B9E81109CF508C85C8DC8 /* Pods_libffi_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libffi_iOS_Tests.framework; path = "Pods-libffi_iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1792AD21CE5B7186DB7311FA62D07E31 /* fficonfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig.h; path = libffi_iOS/fficonfig.h; sourceTree = "<group>"; };
+		17D6595890D5387CE26CCC4F6849054E /* Pods-libffi_iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi_iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		206F4F8E7790B5F4C0B951B0B018F6DB /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = libffi_iOS/ffi.h; sourceTree = "<group>"; };
+		28D9C040A2E7CDECAA8717F58AAAF4D5 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_x86_64.h; path = libffi_iOS/fficonfig_x86_64.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32982D5EA7E9A105D8E0C1B9B404414B /* libffi_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libffi_iOS.release.xcconfig; sourceTree = "<group>"; };
-		35AF1ABFFED45563E6637BB7CD879DC3 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = "libffi-iOS/ffitarget.h"; sourceTree = "<group>"; };
-		50CF8F841E96FFB878FCB97D7417F301 /* Pods-libffi-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		75E82148F1C5D2722C9CB6577EBD1977 /* Pods-libffi-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
-		785F641D78FC621E79E3E456F03526C5 /* fficonfig_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_arm64.h; path = "libffi-iOS/fficonfig_arm64.h"; sourceTree = "<group>"; };
-		81320880A6CE6CD1C90BED9A019EEA5F /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = "libffi-iOS/libffi.a"; sourceTree = "<group>"; };
-		862B839ADC8AC593E729EC572D1531FE /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = "libffi-iOS/ffi_arm64.h"; sourceTree = "<group>"; };
-		9113A99E2B55CB063235708834FD1766 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9457620833F5478DD2E21DD168539B78 /* Pods-libffi-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		42BFF88143AA4E868D51548272FD75EE /* Pods-libffi_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libffi_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		438CCC7E52793FBC7DC0E1DBB6F43B89 /* Pods-libffi_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libffi_iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		4E468B442BA83BBDA6FE525BB5B156A3 /* libffi_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libffi_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		5279BB16C43A4AAF492D9C943F6CCA77 /* Pods-libffi_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libffi_iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		5829253DDF7110F887584C8156167D47 /* Pods-libffi_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libffi_iOS_Example.modulemap"; sourceTree = "<group>"; };
+		83472B6F7BCE2862709A1D6EF82B4A3A /* Pods-libffi_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85E1DA737E4F379304034B12276384E7 /* Pods-libffi_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9013AB3CC632B47C3C4EBEDA2A25B3E4 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = libffi_iOS/ffitarget.h; sourceTree = "<group>"; };
+		924D66B6C6F6EA3212816CF3986CDE4B /* Pods-libffi_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libffi_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92836013D644CF3EFFD28F2BA4C82FAB /* Pods-libffi_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libffi_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		94CC3B30EBA9A94C7504F72A1BF3F444 /* Pods-libffi_iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi_iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		9B1C20132F607DDDCB760A2466AD6A30 /* Pods-libffi_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9CDE1E21599B54FAC5CC199149EE2574 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4A8C4DA2A87BC7D45AD12C830263C1 /* Pods-libffi-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libffi-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		B6AE61199E2CC3C910C779AAE3BB0FD6 /* Pods-libffi-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libffi-iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		B94D7A763F14EC305B86C070903CCA15 /* Pods-libffi-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libffi-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C5A87AF451C243BFDDF9ECD1505C8C72 /* ffi_cfi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_cfi.h; path = "libffi-iOS/ffi_cfi.h"; sourceTree = "<group>"; };
-		C9AA73B33111D5B9BDFAE98146F6DC3B /* Pods-libffi-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libffi-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC228FD0E571084A1CF90C36C86E903A /* libffi_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libffi_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D802A1392C6F89534D55425AA72FAB97 /* Pods-libffi-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libffi-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		DAEA7DE8B6CCD5492C0FCD910798AE26 /* Pods-libffi-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE07F55EC9F096094A26295C10BA767A /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = "libffi-iOS/ffi_common.h"; sourceTree = "<group>"; };
-		DF6B84FD54BD853407B70E684A70E6C7 /* Pods-libffi-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E720C6670702AF196C5F37F8E5263848 /* Pods-libffi-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7EF23110FF6F21B02F59BFC94CC8ECC /* Pods-libffi-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libffi-iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		E955B51D9A8B1B2D562078C739064BBE /* Pods-libffi-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libffi-iOS_Example-Info.plist"; sourceTree = "<group>"; };
-		EB108EEDDE029D79C05BADAFF2000E02 /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = "libffi-iOS/ffi.h"; sourceTree = "<group>"; };
-		F539377DD767150B4778C8A73674269C /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = "libffi-iOS/ffi_x86_64.h"; sourceTree = "<group>"; };
-		F6BBB87DBD7B7480ADA07B98C0379473 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_x86_64.h; path = "libffi-iOS/fficonfig_x86_64.h"; sourceTree = "<group>"; };
+		9EE9079C21BFF6996797053490336940 /* libffi_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libffi_iOS.release.xcconfig; sourceTree = "<group>"; };
+		A0B8627C1A9078B4A2C6F6A3E39EF8D1 /* fficonfig_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_arm64.h; path = libffi_iOS/fficonfig_arm64.h; sourceTree = "<group>"; };
+		A755B1064590107F7F311325C00F40C1 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = libffi_iOS/ffitarget_arm64.h; sourceTree = "<group>"; };
+		A8D2E20BDE4421A372F684AB361F262B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AD67C6C32227D496C6FA74E67C1DF12E /* libffi_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libffi_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0B43D61AA8D623AAF5BDAB28507F75C /* Pods_libffi_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libffi_iOS_Example.framework; path = "Pods-libffi_iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7ED2693CCF5DACCF061F79DD6A33775 /* Pods-libffi_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FC41EBBB27507890D13F3ADC0D889A /* Pods-libffi_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB246F2A0DF2A9822DA4554B893D5642 /* Pods-libffi_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libffi_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DBED335C84EA3B705DC35B55DCC94A0A /* ffi_cfi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_cfi.h; path = libffi_iOS/ffi_cfi.h; sourceTree = "<group>"; };
+		E57ABDE33A9300CF7583A7AF2040F6FC /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = libffi_iOS/libffi.a; sourceTree = "<group>"; };
+		EBDA208AC2C201D3B23CFDDB14C843F9 /* Pods-libffi_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libffi_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFD8EA66BA71B0DF35B87B53CEAECE65 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = libffi_iOS/ffi_common.h; sourceTree = "<group>"; };
+		F809AA3133D35988220D6103E41C849A /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = libffi_iOS/ffi_x86_64.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59EDB7593B47C0154EAC17EF46E3BACD /* Frameworks */ = {
+		6CA28EE250A7D8484674759541FEECC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05214A50D29DA35556D90B6FDC56926 /* Foundation.framework in Frameworks */,
+				705E682E886879B15DFF454E886D135F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		895F3128EEE66EB13C54FF3AE32CD588 /* Frameworks */ = {
+		D5059A902B683B57C525AD29DD9D0134 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA76E13E2ED533D296EE27D77CEFEFD /* Foundation.framework in Frameworks */,
+				DC43FFE0F0B0C4AC3B6B3983A4A3EF14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CCFD4E7848F06F25A65D48CC9134092 /* Support Files */ = {
+		011FB0691569883E9D19BF3187874B62 /* libffi_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0B5829F055EE2C3A21904B97BB53878B /* libffi_iOS.debug.xcconfig */,
-				32982D5EA7E9A105D8E0C1B9B404414B /* libffi_iOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libffi_iOS";
-			sourceTree = "<group>";
-		};
-		286C73C3F655CA1E367B44627543D73F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				12687DA72E15BA598EC69E814B3BB8B4 /* Pods_libffi_iOS_Example.framework */,
-				1C202359916771BD3011B389AB9E1AE3 /* Pods_libffi_iOS_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3340AD2AEC09608ED163C3EEDF7942E4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E0A85BC6A50914E8757D6C9B65EF66A2 /* Pods-libffi-iOS_Example */,
-				BA172954DF735BF13AAD2A670343110C /* Pods-libffi-iOS_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3DE9A419BF29DD38DD83125774B69FF8 /* libffi_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EB108EEDDE029D79C05BADAFF2000E02 /* ffi.h */,
-				862B839ADC8AC593E729EC572D1531FE /* ffi_arm64.h */,
-				C5A87AF451C243BFDDF9ECD1505C8C72 /* ffi_cfi.h */,
-				DE07F55EC9F096094A26295C10BA767A /* ffi_common.h */,
-				F539377DD767150B4778C8A73674269C /* ffi_x86_64.h */,
-				22E23A63614EAAF509DE452FF619F5E0 /* fficonfig.h */,
-				785F641D78FC621E79E3E456F03526C5 /* fficonfig_arm64.h */,
-				F6BBB87DBD7B7480ADA07B98C0379473 /* fficonfig_x86_64.h */,
-				35AF1ABFFED45563E6637BB7CD879DC3 /* ffitarget.h */,
-				014D085052DCEEDA89CA4204DEBBAD4A /* ffitarget_arm64.h */,
-				16FB968F8437BB1069CF8BEBBE40CE43 /* ffitarget_x86_64.h */,
-				8738BD56C39528F3E03B0E1749DABBCD /* Frameworks */,
-				531797E606D2CC07919040DA6B34BA74 /* Pod */,
-				0CCFD4E7848F06F25A65D48CC9134092 /* Support Files */,
+				206F4F8E7790B5F4C0B951B0B018F6DB /* ffi.h */,
+				05A364F8655F290DFB3AAAE9B3808F41 /* ffi_arm64.h */,
+				DBED335C84EA3B705DC35B55DCC94A0A /* ffi_cfi.h */,
+				EFD8EA66BA71B0DF35B87B53CEAECE65 /* ffi_common.h */,
+				F809AA3133D35988220D6103E41C849A /* ffi_x86_64.h */,
+				1792AD21CE5B7186DB7311FA62D07E31 /* fficonfig.h */,
+				A0B8627C1A9078B4A2C6F6A3E39EF8D1 /* fficonfig_arm64.h */,
+				28D9C040A2E7CDECAA8717F58AAAF4D5 /* fficonfig_x86_64.h */,
+				9013AB3CC632B47C3C4EBEDA2A25B3E4 /* ffitarget.h */,
+				A755B1064590107F7F311325C00F40C1 /* ffitarget_arm64.h */,
+				05B4D38242895AD4792325ACBB174A18 /* ffitarget_x86_64.h */,
+				E2103D49A34682ACCF5476E51EB83480 /* Frameworks */,
+				788595E6433819B9FA940BA00C2AD76C /* Pod */,
+				BB5A7F845D8F7B5DF369E1277B5DD369 /* Support Files */,
 			);
 			name = libffi_iOS;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		531797E606D2CC07919040DA6B34BA74 /* Pod */ = {
+		2E6C6EE38C914DC46DC3D9A4A1041960 /* Pods-libffi_iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CC228FD0E571084A1CF90C36C86E903A /* libffi_iOS.podspec */,
-				9113A99E2B55CB063235708834FD1766 /* LICENSE */,
-				1C1988B44797AD546DCD2C5987D5956F /* README.md */,
+				5829253DDF7110F887584C8156167D47 /* Pods-libffi_iOS_Example.modulemap */,
+				EBDA208AC2C201D3B23CFDDB14C843F9 /* Pods-libffi_iOS_Example-acknowledgements.markdown */,
+				85E1DA737E4F379304034B12276384E7 /* Pods-libffi_iOS_Example-acknowledgements.plist */,
+				438CCC7E52793FBC7DC0E1DBB6F43B89 /* Pods-libffi_iOS_Example-dummy.m */,
+				17D6595890D5387CE26CCC4F6849054E /* Pods-libffi_iOS_Example-Info.plist */,
+				0475FDA168B8BAB9DA95EF9F5A3174B4 /* Pods-libffi_iOS_Example-umbrella.h */,
+				D8FC41EBBB27507890D13F3ADC0D889A /* Pods-libffi_iOS_Example.debug.xcconfig */,
+				9B1C20132F607DDDCB760A2466AD6A30 /* Pods-libffi_iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-libffi_iOS_Example";
+			path = "Target Support Files/Pods-libffi_iOS_Example";
+			sourceTree = "<group>";
+		};
+		788595E6433819B9FA940BA00C2AD76C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AD67C6C32227D496C6FA74E67C1DF12E /* libffi_iOS.podspec */,
+				9CDE1E21599B54FAC5CC199149EE2574 /* LICENSE */,
+				A8D2E20BDE4421A372F684AB361F262B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -167,33 +155,37 @@
 		7CB04D99DEFB33C9F9004E5BF735E531 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3DE9A419BF29DD38DD83125774B69FF8 /* libffi_iOS */,
+				011FB0691569883E9D19BF3187874B62 /* libffi_iOS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8738BD56C39528F3E03B0E1749DABBCD /* Frameworks */ = {
+		912453DA5E52EFE3BDF5627C48680DC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81320880A6CE6CD1C90BED9A019EEA5F /* libffi.a */,
+				B0B43D61AA8D623AAF5BDAB28507F75C /* Pods_libffi_iOS_Example.framework */,
+				10A34615115B9E81109CF508C85C8DC8 /* Pods_libffi_iOS_Tests.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		BA172954DF735BF13AAD2A670343110C /* Pods-libffi-iOS_Tests */ = {
+		ACD6FED03DCBC5AA4E2A41B54EA122D0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E7EF23110FF6F21B02F59BFC94CC8ECC /* Pods-libffi-iOS_Tests.modulemap */,
-				21B1AF4496A73FF781E2296608B4F60A /* Pods-libffi-iOS_Tests-acknowledgements.markdown */,
-				DAEA7DE8B6CCD5492C0FCD910798AE26 /* Pods-libffi-iOS_Tests-acknowledgements.plist */,
-				D802A1392C6F89534D55425AA72FAB97 /* Pods-libffi-iOS_Tests-dummy.m */,
-				75E82148F1C5D2722C9CB6577EBD1977 /* Pods-libffi-iOS_Tests-Info.plist */,
-				B94D7A763F14EC305B86C070903CCA15 /* Pods-libffi-iOS_Tests-umbrella.h */,
-				E720C6670702AF196C5F37F8E5263848 /* Pods-libffi-iOS_Tests.debug.xcconfig */,
-				9457620833F5478DD2E21DD168539B78 /* Pods-libffi-iOS_Tests.release.xcconfig */,
+				2E6C6EE38C914DC46DC3D9A4A1041960 /* Pods-libffi_iOS_Example */,
+				FF316ED69C1434ACA44BF8C5EF00DB6A /* Pods-libffi_iOS_Tests */,
 			);
-			name = "Pods-libffi-iOS_Tests";
-			path = "Target Support Files/Pods-libffi-iOS_Tests";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB5A7F845D8F7B5DF369E1277B5DD369 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E468B442BA83BBDA6FE525BB5B156A3 /* libffi_iOS.debug.xcconfig */,
+				9EE9079C21BFF6996797053490336940 /* libffi_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libffi_iOS";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -210,8 +202,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7CB04D99DEFB33C9F9004E5BF735E531 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				286C73C3F655CA1E367B44627543D73F /* Products */,
-				3340AD2AEC09608ED163C3EEDF7942E4 /* Targets Support Files */,
+				912453DA5E52EFE3BDF5627C48680DC6 /* Products */,
+				ACD6FED03DCBC5AA4E2A41B54EA122D0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,80 +215,88 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0A85BC6A50914E8757D6C9B65EF66A2 /* Pods-libffi-iOS_Example */ = {
+		E2103D49A34682ACCF5476E51EB83480 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DEDB1265D04A879AE7718AF28575519 /* Pods-libffi-iOS_Example.modulemap */,
-				C9AA73B33111D5B9BDFAE98146F6DC3B /* Pods-libffi-iOS_Example-acknowledgements.markdown */,
-				DF6B84FD54BD853407B70E684A70E6C7 /* Pods-libffi-iOS_Example-acknowledgements.plist */,
-				B6AE61199E2CC3C910C779AAE3BB0FD6 /* Pods-libffi-iOS_Example-dummy.m */,
-				E955B51D9A8B1B2D562078C739064BBE /* Pods-libffi-iOS_Example-Info.plist */,
-				9E4A8C4DA2A87BC7D45AD12C830263C1 /* Pods-libffi-iOS_Example-umbrella.h */,
-				50CF8F841E96FFB878FCB97D7417F301 /* Pods-libffi-iOS_Example.debug.xcconfig */,
-				2D60A87618100DC73F70B3CDC2F5070F /* Pods-libffi-iOS_Example.release.xcconfig */,
+				E57ABDE33A9300CF7583A7AF2040F6FC /* libffi.a */,
 			);
-			name = "Pods-libffi-iOS_Example";
-			path = "Target Support Files/Pods-libffi-iOS_Example";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF316ED69C1434ACA44BF8C5EF00DB6A /* Pods-libffi_iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5279BB16C43A4AAF492D9C943F6CCA77 /* Pods-libffi_iOS_Tests.modulemap */,
+				924D66B6C6F6EA3212816CF3986CDE4B /* Pods-libffi_iOS_Tests-acknowledgements.markdown */,
+				83472B6F7BCE2862709A1D6EF82B4A3A /* Pods-libffi_iOS_Tests-acknowledgements.plist */,
+				92836013D644CF3EFFD28F2BA4C82FAB /* Pods-libffi_iOS_Tests-dummy.m */,
+				94CC3B30EBA9A94C7504F72A1BF3F444 /* Pods-libffi_iOS_Tests-Info.plist */,
+				42BFF88143AA4E868D51548272FD75EE /* Pods-libffi_iOS_Tests-umbrella.h */,
+				D7ED2693CCF5DACCF061F79DD6A33775 /* Pods-libffi_iOS_Tests.debug.xcconfig */,
+				DB246F2A0DF2A9822DA4554B893D5642 /* Pods-libffi_iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-libffi_iOS_Tests";
+			path = "Target Support Files/Pods-libffi_iOS_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48DD55E5E3DFE53D9A236F495145FFE6 /* Headers */ = {
+		135DDF84C62C986BDD6A4B5E931C2902 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				066F61392D5FCE329B811380FA992980 /* Pods-libffi-iOS_Tests-umbrella.h in Headers */,
+				B02BF1F69373938F11827A18B8E962E5 /* Pods-libffi_iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2CECFCFFD2DD6F13E162256F46A074A /* Headers */ = {
+		38C1923DC6D762BEC8FACEA2A3101225 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD85C949E9210D014AB9E63A720DA0A8 /* Pods-libffi-iOS_Example-umbrella.h in Headers */,
+				12EAF09F09DA74F5CE0868C513056F0E /* Pods-libffi_iOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5FE0BC2B15EF0F5726123C7E051A9403 /* Pods-libffi-iOS_Tests */ = {
+		09FBDAD7D9CA9304E31003A75B68D4F1 /* Pods-libffi_iOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B74E21A3B93BEE3C2853BFE32FED102C /* Build configuration list for PBXNativeTarget "Pods-libffi-iOS_Tests" */;
+			buildConfigurationList = F3E8F2E98FB28F1F6BE7643176E14274 /* Build configuration list for PBXNativeTarget "Pods-libffi_iOS_Tests" */;
 			buildPhases = (
-				48DD55E5E3DFE53D9A236F495145FFE6 /* Headers */,
-				C0AA7C9FB8902418B3061D4A9DD550C4 /* Sources */,
-				895F3128EEE66EB13C54FF3AE32CD588 /* Frameworks */,
-				F016D726A120D0028842522654EDAFA6 /* Resources */,
+				38C1923DC6D762BEC8FACEA2A3101225 /* Headers */,
+				47B00322E5BF19A147D7802816B66A28 /* Sources */,
+				D5059A902B683B57C525AD29DD9D0134 /* Frameworks */,
+				21E86DE41DD0D40025064092E081FCB1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				701FD6A9A968750E9AEC0A4A223705FB /* PBXTargetDependency */,
+				E485DF1FC651D1455214EC36477A1574 /* PBXTargetDependency */,
 			);
-			name = "Pods-libffi-iOS_Tests";
-			productName = "Pods-libffi-iOS_Tests";
-			productReference = 1C202359916771BD3011B389AB9E1AE3 /* Pods_libffi_iOS_Tests.framework */;
+			name = "Pods-libffi_iOS_Tests";
+			productName = "Pods-libffi_iOS_Tests";
+			productReference = 10A34615115B9E81109CF508C85C8DC8 /* Pods_libffi_iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		855EAD3178C75846E075FE349F91B2AA /* Pods-libffi-iOS_Example */ = {
+		653CAB0081218F288116714FB4A99114 /* Pods-libffi_iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048F9351F2A2247A82CBCBA2C89FBC41 /* Build configuration list for PBXNativeTarget "Pods-libffi-iOS_Example" */;
+			buildConfigurationList = 027EEDADA9C70D0D9285CE2768D0BCCB /* Build configuration list for PBXNativeTarget "Pods-libffi_iOS_Example" */;
 			buildPhases = (
-				B2CECFCFFD2DD6F13E162256F46A074A /* Headers */,
-				E84286C82230C0C37B26A34230B17030 /* Sources */,
-				59EDB7593B47C0154EAC17EF46E3BACD /* Frameworks */,
-				61DF9309D6E92E5ADB8A7C8FD5990532 /* Resources */,
+				135DDF84C62C986BDD6A4B5E931C2902 /* Headers */,
+				AB669306499661AC7780C4562873FA9D /* Sources */,
+				6CA28EE250A7D8484674759541FEECC8 /* Frameworks */,
+				1B1568397D9DACFE7287B7235C88ADD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7EE37DE116E1DD1CC490BE42E072708D /* PBXTargetDependency */,
+				003A369F88FD032B6666E0AFE150974C /* PBXTargetDependency */,
 			);
-			name = "Pods-libffi-iOS_Example";
-			productName = "Pods-libffi-iOS_Example";
-			productReference = 12687DA72E15BA598EC69E814B3BB8B4 /* Pods_libffi_iOS_Example.framework */;
+			name = "Pods-libffi_iOS_Example";
+			productName = "Pods-libffi_iOS_Example";
+			productReference = B0B43D61AA8D623AAF5BDAB28507F75C /* Pods_libffi_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,26 +317,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 286C73C3F655CA1E367B44627543D73F /* Products */;
+			productRefGroup = 912453DA5E52EFE3BDF5627C48680DC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D4C91288AD9CC492C6F077E0F7A6DAE7 /* libffi_iOS */,
-				855EAD3178C75846E075FE349F91B2AA /* Pods-libffi-iOS_Example */,
-				5FE0BC2B15EF0F5726123C7E051A9403 /* Pods-libffi-iOS_Tests */,
+				653CAB0081218F288116714FB4A99114 /* Pods-libffi_iOS_Example */,
+				09FBDAD7D9CA9304E31003A75B68D4F1 /* Pods-libffi_iOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61DF9309D6E92E5ADB8A7C8FD5990532 /* Resources */ = {
+		1B1568397D9DACFE7287B7235C88ADD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F016D726A120D0028842522654EDAFA6 /* Resources */ = {
+		21E86DE41DD0D40025064092E081FCB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,43 +346,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0AA7C9FB8902418B3061D4A9DD550C4 /* Sources */ = {
+		47B00322E5BF19A147D7802816B66A28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99473EBAFDFD67B075984483353646BF /* Pods-libffi-iOS_Tests-dummy.m in Sources */,
+				D236D146D45A0617CDAE5EBCAC3B9870 /* Pods-libffi_iOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E84286C82230C0C37B26A34230B17030 /* Sources */ = {
+		AB669306499661AC7780C4562873FA9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C7B07DA5AF05606B89A21BF35861285 /* Pods-libffi-iOS_Example-dummy.m in Sources */,
+				EA131916AEBE3DF5BD9758DF3D3B8385 /* Pods-libffi_iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		701FD6A9A968750E9AEC0A4A223705FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-libffi-iOS_Example";
-			target = 855EAD3178C75846E075FE349F91B2AA /* Pods-libffi-iOS_Example */;
-			targetProxy = 55CBB9E5DEAF074AB9CC807A06218BEF /* PBXContainerItemProxy */;
-		};
-		7EE37DE116E1DD1CC490BE42E072708D /* PBXTargetDependency */ = {
+		003A369F88FD032B6666E0AFE150974C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libffi_iOS;
 			target = D4C91288AD9CC492C6F077E0F7A6DAE7 /* libffi_iOS */;
-			targetProxy = 8F3F7BA98896BFE0BA5B1D8098AA5435 /* PBXContainerItemProxy */;
+			targetProxy = E7DBB14594F7FC58A8C6E53E6183B414 /* PBXContainerItemProxy */;
+		};
+		E485DF1FC651D1455214EC36477A1574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-libffi_iOS_Example";
+			target = 653CAB0081218F288116714FB4A99114 /* Pods-libffi_iOS_Example */;
+			targetProxy = 87149EA05CE82EF7DE15941129E892D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23A659AA78A061E54E8BFFAA419CD9E0 /* Release */ = {
+		2391923874977D61779A30A38E32389D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9457620833F5478DD2E21DD168539B78 /* Pods-libffi-iOS_Tests.release.xcconfig */;
+			baseConfigurationReference = D8FC41EBBB27507890D13F3ADC0D889A /* Pods-libffi_iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -394,12 +394,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libffi-iOS_Tests/Pods-libffi-iOS_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-libffi_iOS_Example/Pods-libffi_iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libffi-iOS_Tests/Pods-libffi-iOS_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-libffi_iOS_Example/Pods-libffi_iOS_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -408,11 +408,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -474,42 +473,9 @@
 			};
 			name = Release;
 		};
-		568F633CF67B8253CD9169020F53393E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50CF8F841E96FFB878FCB97D7417F301 /* Pods-libffi-iOS_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libffi-iOS_Example/Pods-libffi-iOS_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libffi-iOS_Example/Pods-libffi-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5B1AF826591E5CC971306E65055539C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32982D5EA7E9A105D8E0C1B9B404414B /* libffi_iOS.release.xcconfig */;
+			baseConfigurationReference = 9EE9079C21BFF6996797053490336940 /* libffi_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -523,7 +489,7 @@
 		};
 		6C848A9228808935AE9079D496CDAFF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B5829F055EE2C3A21904B97BB53878B /* libffi_iOS.debug.xcconfig */;
+			baseConfigurationReference = 4E468B442BA83BBDA6FE525BB5B156A3 /* libffi_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -598,9 +564,9 @@
 			};
 			name = Debug;
 		};
-		8544E179101E90129B589CC44524D2F3 /* Release */ = {
+		9F7C4605AB3F42C53F19F5A70DD15B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D60A87618100DC73F70B3CDC2F5070F /* Pods-libffi-iOS_Example.release.xcconfig */;
+			baseConfigurationReference = D7ED2693CCF5DACCF061F79DD6A33775 /* Pods-libffi_iOS_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -612,12 +578,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libffi-iOS_Example/Pods-libffi-iOS_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-libffi_iOS_Tests/Pods-libffi_iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libffi-iOS_Example/Pods-libffi-iOS_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-libffi_iOS_Tests/Pods-libffi_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2846C6A4FF132396D007EFE38213A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1C20132F607DDDCB760A2466AD6A30 /* Pods-libffi_iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-libffi_iOS_Example/Pods-libffi_iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libffi_iOS_Example/Pods-libffi_iOS_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -632,9 +631,9 @@
 			};
 			name = Release;
 		};
-		C070FAE5D7C5BE84B4777B73DADE2195 /* Debug */ = {
+		FDAE9EF67F7650DDCE405455B4755E4D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E720C6670702AF196C5F37F8E5263848 /* Pods-libffi-iOS_Tests.debug.xcconfig */;
+			baseConfigurationReference = DB246F2A0DF2A9822DA4554B893D5642 /* Pods-libffi_iOS_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -646,12 +645,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libffi-iOS_Tests/Pods-libffi-iOS_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-libffi_iOS_Tests/Pods-libffi_iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libffi-iOS_Tests/Pods-libffi-iOS_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-libffi_iOS_Tests/Pods-libffi_iOS_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -660,19 +659,20 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048F9351F2A2247A82CBCBA2C89FBC41 /* Build configuration list for PBXNativeTarget "Pods-libffi-iOS_Example" */ = {
+		027EEDADA9C70D0D9285CE2768D0BCCB /* Build configuration list for PBXNativeTarget "Pods-libffi_iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				568F633CF67B8253CD9169020F53393E /* Debug */,
-				8544E179101E90129B589CC44524D2F3 /* Release */,
+				2391923874977D61779A30A38E32389D /* Debug */,
+				B2846C6A4FF132396D007EFE38213A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -695,11 +695,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B74E21A3B93BEE3C2853BFE32FED102C /* Build configuration list for PBXNativeTarget "Pods-libffi-iOS_Tests" */ = {
+		F3E8F2E98FB28F1F6BE7643176E14274 /* Build configuration list for PBXNativeTarget "Pods-libffi_iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C070FAE5D7C5BE84B4777B73DADE2195 /* Debug */,
-				23A659AA78A061E54E8BFFAA419CD9E0 /* Release */,
+				9F7C4605AB3F42C53F19F5A70DD15B6E /* Debug */,
+				FDAE9EF67F7650DDCE405455B4755E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

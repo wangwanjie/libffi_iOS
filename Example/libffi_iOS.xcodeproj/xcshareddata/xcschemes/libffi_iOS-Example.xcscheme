@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "libffi-iOS_Example.app"
-               BlueprintName = "libffi-iOS_Example"
-               ReferencedContainer = "container:libffi-iOS.xcodeproj">
+               BuildableName = "libffi_iOS_Example.app"
+               BlueprintName = "libffi_iOS_Example"
+               ReferencedContainer = "container:libffi_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "libffi-iOS_Tests.xctest"
-               BlueprintName = "libffi-iOS_Tests"
-               ReferencedContainer = "container:libffi-iOS.xcodeproj">
+               BuildableName = "libffi_iOS_Tests.xctest"
+               BlueprintName = "libffi_iOS_Tests"
+               ReferencedContainer = "container:libffi_iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "libffi-iOS_Example.app"
-            BlueprintName = "libffi-iOS_Example"
-            ReferencedContainer = "container:libffi-iOS.xcodeproj">
+            BuildableName = "libffi_iOS_Example.app"
+            BlueprintName = "libffi_iOS_Example"
+            ReferencedContainer = "container:libffi_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "libffi-iOS_Example.app"
-            BlueprintName = "libffi-iOS_Example"
-            ReferencedContainer = "container:libffi-iOS.xcodeproj">
+            BuildableName = "libffi_iOS_Example.app"
+            BlueprintName = "libffi_iOS_Example"
+            ReferencedContainer = "container:libffi_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "libffi-iOS_Example.app"
-            BlueprintName = "libffi-iOS_Example"
-            ReferencedContainer = "container:libffi-iOS.xcodeproj">
+            BuildableName = "libffi_iOS_Example.app"
+            BlueprintName = "libffi_iOS_Example"
+            ReferencedContainer = "container:libffi_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

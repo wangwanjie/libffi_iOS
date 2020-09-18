@@ -1,1 +1,1 @@
-../../../../../libffi-iOS/fficonfig_x86_64.h
+../../../../../libffi_iOS/fficonfig_x86_64.h

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:libffi-iOS.xcodeproj">
+      location = "self:libffi_iOS.xcodeproj">
    </FileRef>
 </Workspace>

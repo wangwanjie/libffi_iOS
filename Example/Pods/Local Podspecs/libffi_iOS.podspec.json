@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "Compiled libffi for iOS. ",
   "description": "Compiled libffi for iOS. ",
-  "homepage": "https://github.com/wangwanjie/libffi-iOS",
+  "homepage": "https://github.com/wangwanjie/libffi_iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,17 +12,17 @@
     "wangwanjie": "vanjay.dev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/wangwanjie/libffi-iOS.git",
+    "git": "https://github.com/wangwanjie/libffi_iOS.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "6.0"
   },
   "source_files": [
-    "libffi-iOS",
-    "libffi-iOS/**/*.{h,m}"
+    "libffi_iOS",
+    "libffi_iOS/**/*.{h,m}"
   ],
-  "vendored_libraries": "libffi-iOS/libffi.a",
-  "public_header_files": "libffi-iOS/**/*.h",
+  "vendored_libraries": "libffi_iOS/libffi.a",
+  "public_header_files": "libffi_iOS/**/*.h",
   "requires_arc": true
 }
